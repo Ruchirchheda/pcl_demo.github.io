@@ -1,12 +1,10 @@
-theme: jekyll-theme-midnight
-
 # --- General options --- #
 # bundle exec jekyll serve
 # Name of website
 title: Home
 
 # Short description of your site
-description: A short website to host my codes
+description: my first website
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -23,14 +21,13 @@ description: A short website to host my codes
 # List of links in the navigation bar
 navbar-links:
   Academic:
-#    - Notes: ""
+    - Notes: "notes"
     - Reports: "reports"
-    - Codes: "codes"
-    - Projects: "projects"
-#    - Presentations: ""
+    - Presentations: "presentations"
   About Me: "aboutme"
   Tutorials:
   More:
+    - Courses: "aboutme/courses"
     - Blog: "blog"
   #Dropdown:
   #  - Item 1: "http://www.google.com/"
@@ -38,7 +35,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-#avatar: ""
+avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -81,19 +78,19 @@ author:
 social-network-links:
   rss: true
   email: "ruchir.2000@gmail.com"
-  facebook: ruchir chheda
+  facebook: Ruchir Chheda
   github: ruchirchheda
 #  twitter: daattali
 #  reddit: yourname
-#  linkedin: 
+#  linkedin: yourname
 #  xing: yourname
 #  stackoverflow: ""
-#  snapchat: 
-#  instagram: 
-#  youtube: 
-#  spotify: 
-#  telephone: 
-#  steam: 
+#  snapchat:
+#  instagram:
+#  youtube:
+#  spotify:
+#  telephone:
+#  steam:
 #  twitch: yourname
 #  yelp: yourname
 
@@ -130,7 +127,7 @@ share-links-active:
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+#disqus: "yourname"
 
 # If you want to use JustComments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
@@ -266,7 +263,7 @@ plugins:
 
 paginate_path: "/blog/page:num/"
 collections:
-  reports: 
+  reports:
     output: true
-  presentations: 
+  presentations:
     output: true
